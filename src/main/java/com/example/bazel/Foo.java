@@ -1,0 +1,1 @@
+package com.example.bazel;public class Foo {	public String getFooAsString() {		return "Foo";	}}

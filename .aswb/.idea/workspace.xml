@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BlazeImportSettings">
+    <option name="buildSystem" value="Bazel" />
+    <option name="locationHash" value="tutorial-f213f53e" />
+    <option name="projectDataDirectory" value="$PROJECT_DIR$" />
+    <option name="projectName" value="tutorial" />
+    <option name="projectViewFile" value="$PROJECT_DIR$/.bazelproject" />
+    <option name="workspaceRoot" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="BlazeSyncStatusState">
+    <option name="dirty" value="true" />
+    <option name="lastSyncFailed" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4dfc2b76-5f1d-4378-8f8e-129454a492bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BUILD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../functions.bzl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/example/bazel/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/common/calculator/BUILD.bazel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/common/calculator/IntCalculator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/snazhmudinov/lib/bar/BUILD.bazel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/snazhmudinov/lib/bar/Bar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/bazel/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/bazel/MainActivity.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.bazelproject" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../WORKSPACE.bazel" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../src/main/java/snazhmudinov/lib/bar/BUILD.bazel" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../src/main/BUILD.bazel" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../.bazelversion" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../src/main/java/com/example/bazel/BUILD.bazel" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="ProjectId" id="2C1BJCkChc56RMzvsj0Huhe5Y6G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="additional_languages_helper_suppressed_kotlin" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26310948" />
+    <property name="settings.editor.selected.configurable" value="blaze.view" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.bazel" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Install app" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" temporary="true">
+      <blaze-settings handler-id="BlazeCommandGenericRunConfigurationHandlerProvider" kind="android_binary" blaze-native-debug="false" DEEP_LINK="" ACTIVITY_CLASS="" MODE="default_activity" launch-method="MOBILE_INSTALL" use-split-apks-if-possible="false" use-work-profile-if-present="false" show-logcat-automatically="false" AM_START_OPTIONS="" blaze-command="mobile-install">
+        <Profilers>
+          <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+          <option name="STARTUP_PROFILING_ENABLED" value="false" />
+          <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+          <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+          <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+          <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        </Profilers>
+        <blaze-target>//src/main:app</blaze-target>
+        <blaze-user-flag>--start_app</blaze-user-flag>
+      </blaze-settings>
+      <method v="2">
+        <option name="Blaze.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Bazel Command.Install app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dfc2b76-5f1d-4378-8f8e-129454a492bf" name="Changes" comment="" />
+      <created>1657960137223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657960137223</updated>
+    </task>
+    <servers />
+  </component>
+</project>

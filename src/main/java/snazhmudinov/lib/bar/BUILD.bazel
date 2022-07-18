@@ -1,0 +1,1 @@
+java_library(    name = "bar-lib",    srcs = ["Bar.java"],    visibility = ["//src/main/java/com/example/bazel:__pkg__"],    deps = [],)

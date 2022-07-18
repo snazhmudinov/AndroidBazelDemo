@@ -1,0 +1,1 @@
+def get_policy(name):    return "Strict policy enabled" if name == "strict" else "Strict policy disabled"

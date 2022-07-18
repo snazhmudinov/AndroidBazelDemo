@@ -1,0 +1,13 @@
+package(
+    default_visibility = ["//src:__subpackages__"],
+)
+
+android_library(
+    name = "greeter_activity",
+    srcs = glob(["*.java"]),
+    manifest = "AndroidManifest.xml",
+    resource_files = glob(["res/**"]),
+    deps = [
+        "//src/main/java/snazhmudinov/lib/bar:bar-lib",
+    ],
+)

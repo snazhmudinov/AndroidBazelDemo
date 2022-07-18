@@ -1,0 +1,1 @@
+package snazhmudinov.lib.bar;public class Bar {	public String getBarAsString() {		return "bar";	}}
