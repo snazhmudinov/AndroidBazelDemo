@@ -6,6 +6,7 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 
+import common.calculator.IntCalculator;
 import snazhmudinov.lib.bar.Bar;
 
 /**
@@ -25,6 +26,8 @@ public class MainActivity extends Activity {
 		Greeter greeter = new Greeter();
 		Foo foo = new Foo();
 		Bar bar = new Bar();
+		IntCalculator calculator = new IntCalculator();
+		final int result = calculator.add(1, 3);
 
 		// Bazel supports Java 8 language features like lambdas!
 		final StringBuilder sb = new StringBuilder();

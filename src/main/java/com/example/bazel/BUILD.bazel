@@ -9,5 +9,6 @@ android_library(
     resource_files = glob(["res/**"]),
     deps = [
         "//src/main/java/snazhmudinov/lib/bar:bar-lib",
+        "//src/main/java/common/calculator:calc"
     ],
 )

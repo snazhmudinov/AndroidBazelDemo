@@ -1,1 +1,11 @@
-load("@io_bazel_rules_kotlin//kotlin:jvm.bzl", "kt_jvm_library")kt_jvm_library(    name = "calc",    srcs = [],    deps = [],)
+package(
+    default_visibility = ["//src:__subpackages__"],
+)
+
+load("@io_bazel_rules_kotlin//kotlin:jvm.bzl", "kt_jvm_library")
+
+kt_jvm_library(
+    name = "calc",
+    srcs = glob(["*.kt"]),
+    deps = [],
+)
